@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #eee;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+a:hover {
+  background-color: #555;
+}
+.fab {
+  font-size: 1.2rem;
+}
+li {
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+header {
+  background-color: #333;
+  width: 100%;
+}
+
+/* Flex styles */
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 760px) {
+  nav ul {
+    display: flex;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 0;
+  }
+}
